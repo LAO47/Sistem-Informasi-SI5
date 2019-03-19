@@ -1,3 +1,9 @@
+<?php
+
+include_once("konek.php");
+
+?>
+
 <!DOCTYPE html>
 <head>
     <title>Login admin</title>
@@ -6,8 +12,8 @@
 <body>
     <br>
     <br>        
-        <!-- nanti tambahin action="login.php" -->
-        <form align="center" method="POST"> 
+        
+        <form action="login.php" align="center" method="POST"> 
         Username : <input type="text" name="username">  
         <br><br>
         Password : <input type="password" name="passwud">  
